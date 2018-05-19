@@ -1,5 +1,6 @@
 package com.kerneladiutormod.reborn.services;
 
+import android.app.activity;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
