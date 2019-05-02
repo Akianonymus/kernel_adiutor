@@ -9,12 +9,11 @@ def siteUrl = 'https://github.com/Grarak/KernelAdiutor'      // Homepage URL of 
 def gitUrl = 'https://github.com/Grarak/KernelAdiutor.git'   // Git repository URL
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '26.0.3'
+    compileSdkVersion 26
 
     defaultConfig {
         minSdkVersion 19
-        targetSdkVersion 27
+        targetSdkVersion 26
         versionCode 2
         versionName version
     }
@@ -99,6 +98,6 @@ artifacts {
     archives sourcesJar
 }
 
-task findConventions << {
+task findConventions {
     println project.getConvention()
 }
